@@ -12,7 +12,7 @@ class Solution:
             size = len(que)
 
             for i in range(size):
-                node = que.popleft()temp
+                node = que.popleft()
                 if node.right:
                     que.append(node.right)
                 if node.left:
